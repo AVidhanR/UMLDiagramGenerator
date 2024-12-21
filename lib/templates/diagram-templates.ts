@@ -8,7 +8,7 @@ export const diagramTemplates = {
     User --> A
     User --> B
     User --> C`,
-    
+
   sequence: `sequenceDiagram
     actor User
     participant System
@@ -18,7 +18,7 @@ export const diagramTemplates = {
     System->>Database: Query
     Database-->>System: Return Results
     System-->>User: Display Data`,
-    
+
   activity: `stateDiagram-v2
     [*] --> Start
     Start --> Processing: Initialize
@@ -26,7 +26,7 @@ export const diagramTemplates = {
     Decision --> Success: Valid
     Decision --> Error: Invalid
     Success --> [*]
-    Error --> Processing: Retry`
+    Error --> Processing: Retry`,
 };
 
 export type DiagramType = keyof typeof diagramTemplates;
