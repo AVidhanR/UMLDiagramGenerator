@@ -10,4 +10,4 @@ This project is a simple UML diagrams generator. It generates activity diagrams,
 4. Open your browser and navigate to `http://localhost:3000`
 
 Built using `bolt.new` \
-just created for fun, feel free to experiment with it: [UMLDiagramGen](https://uml-diagram-generatot.vercel.app)
+just created for fun, feel free to experiment with it: [UMLDiagramGen](https://uml-diagram-generator.vercel.app)
